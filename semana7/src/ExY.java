@@ -27,8 +27,6 @@ public class ExY {
             numeroValido = scanner.nextInt();
         } while (numeroValido <= 0);
 
-        scanner.close();
-
         return numeroValido;
     }
 
