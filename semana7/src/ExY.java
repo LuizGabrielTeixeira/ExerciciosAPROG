@@ -6,8 +6,10 @@ public class ExY {
     }
 
     public static void imprimir() {
-        int limiteInferior = readPositiveValue();
-        int limiteSuperior = readPositiveValue();
+        Scanner scanner = new Scanner(System.in);
+
+        int limiteInferior = readPositiveValue(scanner);
+        int limiteSuperior = readPositiveValue(scanner);
         int limiteAuxiliar;
 
         if (limiteInferior > limiteSuperior) {
@@ -17,10 +19,10 @@ public class ExY {
         }
 
         showTablesInRange(limiteInferior, limiteSuperior);
+        scanner.close();
     }
 
-    public static int readPositiveValue() {
-        Scanner scanner = new Scanner(System.in);
+    public static int readPositiveValue(Scanner scanner) {
         int numeroValido;
 
         do {

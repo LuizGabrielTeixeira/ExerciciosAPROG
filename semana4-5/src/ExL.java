@@ -1,5 +1,3 @@
-package semana4_5;
-
 import java.util.Scanner;
 
 public class ExL {
@@ -7,9 +5,6 @@ public class ExL {
         Scanner scanner = new Scanner(System.in);
 
         int numeroLimite = scanner.nextInt();
-// Um número é perfeito se for natural e for igual à soma
-// de todos os seus divisores (excluindo o próprio número).
-// Exemplo: 6 é perfeito, pois 1 + 2 + 3 = 6. Ou seja: numeroPerfeito = soma dos divisores (divisor < numero)
 
         int somaDivisores;
         int divisor;

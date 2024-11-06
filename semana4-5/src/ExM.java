@@ -1,15 +1,9 @@
-package semana4_5;
-
 import java.util.Scanner;
 
 public class ExM {
     public static void main(String[] args) {
 
         Scanner scanner = new Scanner(System.in);
-//Construa um programa para mostrar os N primeiros termos
-// da sucessão de Fibonacci.Nesta sucessão, o primeiro termo
-// é zero (0), o segundo termo é um (1) e qualquer um dos
-// outros termos é igual à soma dos dois termos anteriores.
 
         int numeroLimite = scanner.nextInt();
         int quantidadeFibonacci = 0;
