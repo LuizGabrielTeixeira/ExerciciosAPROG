@@ -3,7 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/APROG.iml" filepath="$PROJECT_DIR$/.idea/APROG.iml" />
-      <module fileurl="file://$PROJECT_DIR$/semana4-5/semana4-5.iml" filepath="$PROJECT_DIR$/semana4-5/semana4-5.iml" />
+      <module fileurl="file://$PROJECT_DIR$/semana4/semana4.iml" filepath="$PROJECT_DIR$/semana4/semana4.iml" />
+      <module fileurl="file://$PROJECT_DIR$/semana5/semana5.iml" filepath="$PROJECT_DIR$/semana5/semana5.iml" />
       <module fileurl="file://$PROJECT_DIR$/semana6/semana6.iml" filepath="$PROJECT_DIR$/semana6/semana6.iml" />
       <module fileurl="file://$PROJECT_DIR$/semana7/semana7.iml" filepath="$PROJECT_DIR$/semana7/semana7.iml" />
       <module fileurl="file://$PROJECT_DIR$/semana8/semana8.iml" filepath="$PROJECT_DIR$/semana8/semana8.iml" />
