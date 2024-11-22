@@ -17,3 +17,5 @@
 
 ### Responsável 😄:
 - [**Gabriel Sargaço Teixeira**](https://github.com/LuizGabrielTeixeira) 
+
+![diagram.svg](uml/diagram.svg)

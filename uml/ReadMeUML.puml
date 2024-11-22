@@ -1,0 +1,41 @@
+@startuml
+hide class circle
+hide methods
+hide stereotypes
+
+
+skinparam shadowing true
+
+title Diagrama de Entidades até APROG
+
+class IPP {
+  Instituto Politécnico do Porto
+}
+
+class ISEP {
+  Instituto Superior de Engenharia do Porto
+}
+
+class DEI {
+  Departamento de Engenharia Informática
+}
+
+class LEI {
+  Licenciatura em Engenharia Informática
+}
+
+class PrimeiroAno {
+  & 1º Semestre
+}
+
+class AProg {
+  Algoritmia e Programação
+}
+
+IPP -right-> ISEP
+ISEP -down-> DEI
+DEI -left-> LEI
+LEI -down-> PrimeiroAno
+PrimeiroAno -right-> AProg
+
+@enduml
