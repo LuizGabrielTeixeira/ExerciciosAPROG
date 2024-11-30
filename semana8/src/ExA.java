@@ -17,7 +17,10 @@ public class ExA {
             totalNotas[a] = nota;
         }
 
-        System.out.printf("average=%.1f\nfailures=%d\n", calcularMedia(totalNotas), reprovados(totalNotas));
+        double medias = calcularMedia(totalNotas);
+        int reprovados = reprovados(totalNotas);
+
+        System.out.printf("average=%.1f\nfailures=%d\n", medias, reprovados);
 
         scanner.close();
     }
@@ -36,14 +39,15 @@ public class ExA {
     }
 
     private static double calcularMedia(double[] totalNotas) {
-        double media = 0;
+        double media;
+        double soma = 0;
         int quantidadeAlunos = totalNotas.length;
 
         for (int c = 0; c < quantidadeAlunos; c++) {
-            media += totalNotas[c];
+            soma += totalNotas[c];
         }
 
-        media /= quantidadeAlunos;
+        media = soma/quantidadeAlunos;
 
         return media;
     }
