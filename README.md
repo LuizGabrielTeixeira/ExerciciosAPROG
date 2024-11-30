@@ -4,7 +4,7 @@
 ------
 **Repositório para os exercícios realizados durante o curso desta matéria.**
 
-- ***Apenas sobre exercícios em Java. Os demais, anteriores à semana 4, foram totalmente sobre Algoritmia!***
+- ***Apenas sobre exercícios em Java. Os demais, anteriores à semana 4, foram totalmente sobre Algoritmia! (em papel)***
 
 ### Estrutura do Repositório 📁:
 #### Dividido por semanas, refletindo o progresso com o passar do tempo.
@@ -17,5 +17,3 @@
 
 ### Responsável 😄:
 - [**Gabriel Sargaço Teixeira**](https://github.com/LuizGabrielTeixeira) 
-
-![diagram.svg](uml/diagram.svg)
