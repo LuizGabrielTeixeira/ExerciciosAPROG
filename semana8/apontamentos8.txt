@@ -3,8 +3,8 @@ b ok
 c ok
 d ok
 e ok
-f
-g
+f ok
+g ok
 h
 i
 
