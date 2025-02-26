@@ -1,9 +1,12 @@
 a ok
-b dificil de entender o enunciado
-c c
-d d
-e
+b ok
+c ok
+d ok
+e ok
 f
 g
 h
 i
+
+NOTE:
+- q7PRCMP it's just a test of a C code adapted to Java, testing if it works correctly. (and not belong to the APROG classes)

@@ -1,4 +1,3 @@
-import javax.security.auth.login.AccountLockedException;
 import java.util.Scanner;
 
 public class ExD {

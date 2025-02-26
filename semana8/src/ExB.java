@@ -8,32 +8,29 @@ public class ExB {
     public static void imprimirMenoresElementos() {
         Scanner scanner = new Scanner(System.in);
 
-        int[] elementos;
+        int[] elementos = new int[100];
         int numero = scanner.nextInt();
+        int quantidade = 0;
         int minimo;
         int ocorrencia;
-        int quantidadeElementos = 1;
 
         if (numero > 0) {
-            elementos = new int[quantidadeElementos];
             elementos[0] = numero;
-            numero = scanner.nextInt();
 
-            for (int i = 1; numero < 0; i++) {
-                quantidadeElementos++;
-                elementos = new int [quantidadeElementos];
-                elementos[i] = numero;
+            for (int i = 1; i < elementos.length && numero > 0; i++) {
+                quantidade++;
                 numero = scanner.nextInt();
+                elementos[i] = numero;
             }
 
-            minimo = lerMinimo(elementos);
+            minimo = lerMinimo(elementos, quantidade);
             ocorrencia = verOcorrencias(minimo, elementos);
 
             System.out.printf("min=%d\noccurrences=%d", minimo, ocorrencia);
+
         } else {
             System.out.println();
         }
-
         scanner.close();
     }
 
@@ -50,13 +47,12 @@ public class ExB {
         return ocorrencia;
     }
 
-    public static int lerMinimo(int[] elementos) {
-        int limite = elementos.length;
+    public static int lerMinimo(int[] elementos,int quantidade) {
         int minimo = elementos[0];
 
-        for (int b = 1; b < limite; b++) {
-            if (elementos[b] < minimo) {
-                minimo = elementos[b];
+        for (int b = 1; b < quantidade; b++) {
+            if ((elementos[b] < minimo) && (elementos[b] > 0)) {
+                    minimo = elementos[b];
             }
         }
 
