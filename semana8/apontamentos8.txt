@@ -5,8 +5,9 @@ d ok
 e ok
 f ok
 g ok
-h
+h ok
 i
+
 
 NOTE:
 - q7PRCMP it's just a test of a C code adapted to Java, testing if it works correctly. (and not belong to the APROG classes)
