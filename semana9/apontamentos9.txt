@@ -1,8 +1,8 @@
 J - ok
 K - ok
 L - ok
-M -
-N -
-O -
+M - ok
+N - ok
+O - mal e incompleto
 P -
 Q -
